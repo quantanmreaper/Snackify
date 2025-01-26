@@ -1,12 +1,12 @@
 import React from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import ImageSlider from "../components/Slider";
 function Home () {
     return (
         <div>
             <Header />
-            <h1>Welcome to Snackify!</h1>
-            <p>Buy your favorite snacks here!</p>
+            <ImageSlider />
             <Footer />
         </div>
        
