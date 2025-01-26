@@ -3,6 +3,7 @@ import React from 'react';
 function Header() {
   return (
     <header className="bg-gray-800 text-white py-3">
+      
       <nav className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-10">
         <div className="flex items-center  h-20"> {/* Increased height from h-16 to h-20 */}
           <div className="flex items-center">

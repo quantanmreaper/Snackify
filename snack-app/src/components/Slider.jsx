@@ -23,14 +23,14 @@ const ImageSlider = () => {
   };
 
   return (
-    <div className="max-w-4xl mx-auto mt-6">
+    <div className="max-w-screen-lg mx-auto mt-6">
       <Slider {...settings}>
         {images.map((image, index) => (
           <div key={index}>
             <img
               src={image}
               alt={`Slide ${index}`}
-              className="w-full h-64 object-cover"
+              className="slider-image mx-auto"
             />
           </div>
         ))}

@@ -82,7 +82,7 @@ function Footer() {
               href="#"
               className="bg-gray-700 p-2 rounded-full hover:bg-yellow-400"
             >
-              <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" class="w-6 h-6">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" className="w-6 h-6">
                 <path d="M22.675 0h-21.35C.592 0 0 .593 0 1.326v21.348C0 23.407.592 24 1.326 24h11.497v-9.294H9.691v-3.622h3.132V8.413c0-3.1 1.893-4.787 4.659-4.787 1.325 0 2.463.099 2.794.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.31h3.587l-.467 3.622h-3.12V24h6.116c.733 0 1.326-.592 1.326-1.326V1.326C24 .593 23.407 0 22.675 0z"/>
               </svg>
 
