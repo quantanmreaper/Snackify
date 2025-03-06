@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Create = () => {
+const Cart = () => {
     return (
       <div>
         <h1>About Us</h1>
@@ -9,5 +9,5 @@ const Create = () => {
     );
   }
   
-  export default Create; 
+  export default Cart; 
   
