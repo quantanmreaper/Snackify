@@ -28,12 +28,12 @@ const header = () =>{
                   {/* Dropdown list code for the profile menu icon */}
                   {isOpen && (
                     <div className="absolute right-0 mt-2 w-48 bg-white rounded-lg shadow-lg py-2 z-50 text-gray-300">
-                        <Link to="/" className="block px-4 py-2 text-gray-800 hover:bg-yellow-400 hover:text-gray-1000">Profile</Link>
+                        <Link to="/profile" className="block px-4 py-2 text-gray-800 hover:bg-yellow-400 hover:text-gray-1000">Profile</Link>
                         <Link to="/" className="block px-4 py-2 text-gray-800 hover:bg-yellow-400 hover:text-gray-1000">SignOut</Link>
                     </div>
                   )}
                   </div>
-
+                  
 
                   <Link to="/order">
               <button className="bg-yellow-500 hover:bg-yellow-400 text-gray-900 font-bold py-2 px-4 rounded-md">

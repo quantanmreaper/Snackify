@@ -3,18 +3,18 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import ProductDetails from "./pages/ProductDetails";
 import Cart from "./pages/Cart";
-
+import Profile from "./pages/UserAccount";
 //Importing Context Providers for Cart Management 
-import {CartProvider} from "./context/CartContext";
+/* import {CartProvider} from "./context/CartContext";
 import {AuthProvider} from "./context/AuthContext";
-import {SnackProvider} from "./context/SnackContext";
+import {SnackProvider} from "./context/SnackContext"; */
 
 function App() {
   return (
       
-      <SnackProvider>
+     /*  <SnackProvider>
         <CartProvider>
-          <AuthProvider>
+          <AuthProvider> */
 
           <Router>
               <Routes>
@@ -22,13 +22,14 @@ function App() {
                   <Route path="/about" element={<About />}></Route>
                   <Route path="/productdetails" element={<ProductDetails />}></Route>
                   <Route path="/cart" element={<Cart />}></Route>
+                  <Route path="/profile" element={<Profile />}></Route>
               </Routes>
            </Router>
 
-          </AuthProvider>
+      /*     </AuthProvider>
         </CartProvider>
       </SnackProvider>
-           
+            */
            
   );
 }
