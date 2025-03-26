@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import {FaGoogle, FaFacebook} from 'react-icons/fa';
+import {Link} from "react-router-dom";
 
 const SignUpForm = () => {
     // Form field states
@@ -238,7 +239,7 @@ const SignUpForm = () => {
             </div>
 
             <div className="mt-4 text-center">
-              <a href="/signin" className="text-blue-500">Already have an account? Sign In</a>
+              <Link to="/signin" className="text-blue-500 hover:text-purple-800">Already have an account? Sign In</Link>
             </div>
           </div>
         </div>
