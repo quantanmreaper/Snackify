@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import {FaGoogle, FaFacebook} from 'react-icons/fa';
 
 const SignUpForm = () => {
     // Form field states
@@ -226,11 +227,16 @@ const SignUpForm = () => {
               </button>
             </form>
             
-            <div className="flex justify-center items-center mt-6">
-              <button className="bg-red-500 text-white px-4 py-2 rounded mr-2">Sign in with Google</button>
-              <button className="bg-blue-700 text-white px-4 py-2 rounded">Sign in with Facebook</button>
+            <div className="flex justify-center items-center mt-6 space-x-4">
+              <button className="p-3 rounded-full bg-red-500 text-white hover:bg-red-700 transition duration-300">
+                <FaGoogle size={24} />
+              </button>
+              
+              <button className="p-3 rounded-full bg-blue-700 text-white hover:bg-blue-900 transition duration-300">
+                <FaFacebook size={24} />
+              </button>
             </div>
-            
+
             <div className="mt-4 text-center">
               <a href="/signin" className="text-blue-500">Already have an account? Sign In</a>
             </div>
