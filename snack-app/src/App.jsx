@@ -4,6 +4,7 @@ import About from "./pages/About";
 import ProductDetails from "./pages/ProductDetails";
 import Cart from "./pages/Cart";
 import Profile from "./pages/UserAccount";
+import SignUpForm from "./components/SignUpForm"; 
 //Importing Context Providers for Cart Management 
 /* import {CartProvider} from "./context/CartContext";
 import {AuthProvider} from "./context/AuthContext";
@@ -23,6 +24,7 @@ function App() {
                   <Route path="/productdetails" element={<ProductDetails />}></Route>
                   <Route path="/cart" element={<Cart />}></Route>
                   <Route path="/profile" element={<Profile />}></Route>
+                  <Route path="/signup" element={<SignUpForm />}></Route>
               </Routes>
            </Router>
 
